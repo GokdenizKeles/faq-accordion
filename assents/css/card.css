@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: "Work Sans";
+  background: pink url("../img/tablo.png") no-repeat ;
+ background-size: cover;
+  position: fixed;
+}
+ .card {
+  width:600px;
+  padding: 40px;
+  border-radius: 16px;
+  margin-inline: auto;
+  background-color: white;
+   height: 600px;
+ text-align: center;
+margin-top: 120px;
+ margin-left: 720px;
+
+}
+.card h1 {
+font-size: 56px;
+line-height: 65.69px;
+text-align: left;
+padding-bottom: 32px;
+}
+.card .star {
+ float: left;
+ margin-top: 10px;
+padding-right: 24px;
+}
+.card h5 {
+font-size: 18px;
+font-weight: 600;
+line-height: 21.11px;
+text-align: left;
+padding-bottom: 28.5px;
+}
+.card .circle {
+  float: right;
+}
+.card p {
+line-height: 24px;
+text-align: left;
+color:#8B6990;
+
+}
+.line {
+  height: 1px;
+  display: block;
+  width: 520px;
+  background: var(--Light-Pink, #F8EEFF);
+ margin-block: 24px;
+}
+.card h2 {
+font-size: 18px;
+font-weight: 600;
+line-height: 21.11px;
+text-align: left;
+color: #301534;
+}
+.card .c {
+  float: right;
+}
+.card h3 {
+font-size: 18px;
+font-weight: 600;
+line-height: 21.11px;
+text-align: left;
+color: #301534;
+}
+.card h4 {
+font-size: 18px;
+font-weight: 600;
+line-height: 21.11px;
+text-align: left;
+ color: #301534;
+}
+.card .ffa:hover {
+  color: #AD28EB;
+  
+}
+.dnt {
+  display: inline-block;
+}
